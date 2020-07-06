@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    background-color: #111d4a;
+}
+
+
+h1 {
+    color: #eee;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(65,75,109);
+    background: radial-gradient(circle, rgba(65,75,109,1) 0%, rgba(16,28,71,1) 100%, rgba(250,250,250,1) 100%);
+  }
+  
+  .li {
+    float: right;
+  }
+  
+  .li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .li a:hover {
+    background: rgb(238,239,241);
+background: radial-gradient(circle, rgba(238,239,241,1) 0%, rgba(16,28,71,1) 100%, rgba(250,250,250,1) 100%);
+  }
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+
+  .click{
+      color: black;
+      height: 50px;
+      width: 100px;
+  }
+  .click:hover{
+    
+  }
+
+  .color{
+      color: white;
+     
+  }
